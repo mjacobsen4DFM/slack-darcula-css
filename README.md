@@ -2,7 +2,7 @@
 Dark theme for Slack
 
 
-
+<img src="https://raw.githubusercontent.com/mjacobsen4DFM/slack-darcula-css/master/Slack-Darcula.png" />
 
 This is the original source of my CSS:<br/>
 https://github.com/laCour/slack-night-mode/issues/73#issuecomment-287467332<br/>
