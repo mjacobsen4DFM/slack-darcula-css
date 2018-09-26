@@ -5053,6 +5053,22 @@ body>pre
 	color: var(--foreground-warn);
 }
 
+.c-reaction {
+	background: var(--background-elevated) !important;
+	line-height: 1.5rem;
+	font-size: 1em;
+}
+
+.c-reaction .emoji-sizer {
+	line-height: 1.5rem;
+	font-size: 1.5rem;
+	margin-top: 1px !important;
+}
+
+.c-reaction_add {
+	height: 2rem !important;
+}
+
 .CodeMirror
 {
 	background: var(--background-dark);
