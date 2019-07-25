@@ -10,29 +10,15 @@ It points to a publicly hosted CSS, which needs an ajax call appended to a Slack
 <br/>
 <br/>
 But, I wanted to have it local so that I can edit and apply it, at will.<br/>
-I saved it as /Applications/Resources/slack-darcula.css<br/>
-<br/>
-<br/>
-Append this:
-```
-document.addEventListener('DOMContentLoaded', function() {
-  var fs = require('fs'),
-  filePath = '/Applications/Resources/slack-darcula.css';
 
-  fs.readFile(filePath, {encoding: 'utf-8'}, function(err, data) {
-    if (!err) {
-      var css = document.createElement('style')
-      css.innerText = data;
-      document.getElementsByTagName('head')[0].appendChild(css);
-    }
-  })
-});
-```
-to the appropriate interop file…<br/>
-Mac:      /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js<br/>
-Windows: %LocalAppData%\Slack<latest>\resources\app.asar.unpacked\src\static\ssb-interop.js<br/>
-Ubuntu:  /usr/lib/slack/resources/app.asar.unpacked/src/static/ssb-interop.js<br/>
-(I have only tested it on Mac)<br/> 
+Now, you can too!
+<br/>
+Save the css as /Applications/Resources/slack-darcula.css<br/>
+<br/>
+Run slack4-darcula-mode.bsh
+It will unpack Salck, alter /app.asar.unpacked/dist/ssb-interop.bundle.js to load ths CSS, and repack Slack.
+<br/> 
+(Note: I have only tested it on Mac)<br/> 
 <br/>
 CMD-R/CTRL-R will refresh the Slack window and apply the new CSS.<br/>
 Nice and easy!<br/>
@@ -48,3 +34,5 @@ My eyes have thanked me!<br/>
 (now, if only I could make *all* the white screens on my Mac dark!)<br/>
 (Mojave says, "Hold my beer".)<br/>
 
+/////
+Special thanks to @d-fay for the unpack/pack script!
