@@ -83,6 +83,72 @@ body { background: var(--background-color); }
         #col_flex { background: var(--background-color); }
 
 */
+ 
+ 
+/* BEGIN 4.0 specific changes */
+
+ .p-workspace__top_nav {
+     background: var(--background-color);
+}
+ .p-workspace__input .p-message_input_field {
+     background: var(--background-elevated);
+}
+ .p-workspace--classic-nav .p-workspace__primary_view_footer {
+     background: var(--background-color);
+}
+ .p-classic_nav__no_drag {
+     color: var(--foreground-color);
+}
+ .p-classic_nav__model__title__name--dim {
+     color: var(--foreground-dim);
+}
+ .c-icon {
+     color: var(--foreground-color);
+}
+ .p-classic_nav__right__search__icon {
+     color: var(--foreground-color);
+}
+ .p-classic_nav__right__search__placeholder {
+     color: var(--foreground-color);
+}
+ .p-unreads_view__empty {
+     background: var(--background-color);
+}
+ .c-virtual_list {
+     background: var(--background-color);
+}
+ .c-message_kit__message {
+     background: var(--background-elevated);
+}
+ .p-threads_view__default_background {
+     background: var(--background-elevated);
+}
+ .p_threads_view_load_newer_button, .p_threads_view_load_older_button {
+     background: var(--background-elevated);
+}
+ .c-link--button {
+     color: var(--foreground-color);
+}
+ .p-threads_footer__input .p-message_input_file_button {
+     background: var(--background-elevated);
+}
+ .p-threads_footer__input .p-message_input_field {
+     background: var(--background-elevated);
+}
+ .c-channel_name {
+     color: var(--foreground-color);
+}
+ .p-flexpane_header {
+     background: var(--background-elevated);
+}
+ .p-classic_nav__right__search {
+     border: 1px solid var(--border-color);
+}
+ .p-classic_nav__channel_header__subtitle {
+     color: var(--foreground-color);
+}
+
+/* END 4.0 specific changes */
 
 
 #admin_invites_add_row
