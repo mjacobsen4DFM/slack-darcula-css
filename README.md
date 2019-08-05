@@ -16,7 +16,7 @@ Now, you can too!
 Save the css as /Applications/Resources/slack-darcula.css<br/>
 <br/>
 Run slack4-darcula-mode.bsh
-It will unpack Salck, alter /app.asar.unpacked/dist/ssb-interop.bundle.js to load ths CSS, and repack Slack.
+It will unpack Slack, alter /app.asar.unpacked/dist/ssb-interop.bundle.js to load the CSS, and repack Slack.
 <br/> 
 (Note: I have only tested it on Mac)<br/> 
 <br/>
